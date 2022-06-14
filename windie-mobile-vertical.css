@@ -1,0 +1,17 @@
+*{margin:0; padding:0;}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+}
+
+#phone-vertical {
+  width: 342px;
+  height: 740px;
+  border-radius: 30px;
+  background-color: #fff;
+}
