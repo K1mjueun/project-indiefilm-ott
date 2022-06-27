@@ -58,3 +58,8 @@ let displayAppear = [
   const seoulBtn = document.querySelector("#location-box > li:nth-child(2)");
   const locationSeoulP = document.querySelector("#location-seoul");
   displayChange(seoulBtn,locationP,locationSeoulP);
+
+  const gangnamBtn = document.querySelector("#seoul-box > li:nth-child(2)");
+  const gangnamP = document.querySelector("#location-seoul-gangnam");
+  displayChange(gangnamBtn,locationSeoulP,gangnamP);
+
