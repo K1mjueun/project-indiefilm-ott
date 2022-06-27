@@ -38,6 +38,10 @@
   border-bottom: var(--color-white) solid 3px;
 }
 
+.location,.searching, .released:hover {
+  cursor: pointer;
+}
+
 .location > .number, .searching > .number, .released > .number {
   background-color: var(--color-blue);
 }

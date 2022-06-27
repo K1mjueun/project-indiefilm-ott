@@ -1,0 +1,94 @@
+
+#location {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+
+  display: none;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#location-box {
+  width: 265px;
+  height: 400px;
+  border-radius: 20px;
+  border: var(--color-white) solid 3px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#location-box > li {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+
+  color: var(--color-white);
+  font-size: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 7px;
+  padding-right: 7px;
+  border-bottom: 3px solid var(--color-white);
+}
+
+#location-box > li:nth-child(7) {
+  border:0;
+}
+
+#location-box > li > section {
+  width: 30px;
+  height: 30px;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/menu-arrow.png");
+}
+
+#location-box > li:nth-child(1) {
+  height: 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+#location-box > li:nth-child(1) > div:nth-child(1) {
+  width: 25px;
+  height: 20px;
+  background-color: var(--color-blue);
+  border: 2px solid var(--color-white);
+  border-radius: 100%;
+}
+
+#location-box > li:nth-child(1) > div:nth-child(3) {
+  font-size: 17px;
+  margin-right: 7px;
+}
+
+#location-box > li:nth-child(1) > h1 {
+  position: absolute;
+  left: 40px;
+  font-size: 17px;
+}
+
+#location-box > li:nth-child(1) > div:nth-child(3):hover {
+  cursor: pointer;
+}
+#location-box > li:hover {
+  cursor: pointer;
+}
+#location-box > li:nth-child(1):hover {
+  cursor:default;
+}
