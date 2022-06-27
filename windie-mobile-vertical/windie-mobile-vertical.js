@@ -42,3 +42,15 @@ let displayAppear = [
   displayChange(menuHome,firstP,homeP);
   displayChange(menuCinema,firstP,cinemaP);
   displayChange(menuMagazine,firstP,magazineP);
+
+  const CmenuBox = document.querySelector("#c-menu-box");
+  const locationBtn = CmenuBox.children[0];
+  const searchingBtn = CmenuBox.children[1];
+  const releasedBtn = CmenuBox.children[2];
+
+  const locationP = document.querySelector("#location"); 
+  const searchingP = document.querySelector("#searching"); 
+  const releasedP = document.querySelector("#released"); 
+  displayChange(locationBtn,cinemaP,locationP);
+  displayChange(searchingBtn,cinemaP,searchingP);
+  displayChange(releasedBtn,cinemaP,releasedP);

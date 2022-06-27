@@ -11,3 +11,34 @@
   flex-direction: column;
 }
 
+#c-menu-box {
+  width: 265px;
+  height: 350px;
+  border-radius: 20px;
+  border: var(--color-white) solid 3px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#c-menu-box > div {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.location,.searching {
+  border-bottom: var(--color-white) solid 3px;
+}
+
+.location > .number, .searching > .number, .released > .number {
+  background-color: var(--color-blue);
+}
+
