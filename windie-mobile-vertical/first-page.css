@@ -10,3 +10,89 @@
   justify-content: center;
   flex-direction: column;
 }
+
+#first-page > section {
+  width: 220px;
+  height: 70px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/img/윈디-스티커-가로형.png");
+}
+
+#menu-box {
+  width: 265px;
+  height: 350px;
+  border-radius: 20px;
+  border: var(--color-white) solid 3px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 40px;
+}
+
+#menu-box > div {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.home,.cinema {
+  border-bottom: var(--color-white) solid 3px;
+}
+
+.arrow, .number, .menu-name {
+  position: absolute;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/menu-arrow.gif");
+
+  right:5px;
+  top:5px;
+}
+
+.number {
+  width: 55px;
+  height: 37px;
+  border: 3px solid var(--color-white);
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  left:7px;
+  top:25px;
+}
+
+.home > .number {
+  background-color: var(--color-green);
+}
+.cinema > .number {
+  background-color: var(--color-blue);
+}
+.magazine > .number {
+  background-color: var(--color-yellow);
+}
+
+.menu-name {
+  bottom:5px;
+  left:7px;
+}
+
+.home,.cinema, .magazine:hover {
+  cursor: pointer;
+}
