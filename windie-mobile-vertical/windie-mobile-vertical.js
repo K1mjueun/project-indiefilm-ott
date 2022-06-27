@@ -1,5 +1,5 @@
 
-//화면 전환
+//화면 전환 함수
 let displayAppear = [
   {opacity: 0.7},
   {opacity: 0.8},
@@ -20,6 +20,7 @@ let displayAppear = [
       appearTarget.style.opacity = 1;
     });
   };
+  //
 
   const startP = document.querySelector("#start-page");
   const startPlogo = startP.children;
@@ -27,3 +28,5 @@ let displayAppear = [
   displayChange(startPlogo[0],startP,loginP);
 
   const signinBtn = document.querySelector(".sign-in");
+  const firstP = document.querySelector("#first-page");
+  displayChange(signinBtn,loginP,firstP);
