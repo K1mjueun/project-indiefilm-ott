@@ -25,3 +25,5 @@ let displayAppear = [
   const startPlogo = startP.children;
   const loginP = document.querySelector("#login-page");
   displayChange(startPlogo[0],startP,loginP);
+
+  const signinBtn = document.querySelector(".sign-in");
