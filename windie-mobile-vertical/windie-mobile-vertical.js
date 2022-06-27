@@ -30,3 +30,15 @@ let displayAppear = [
   const signinBtn = document.querySelector(".sign-in");
   const firstP = document.querySelector("#first-page");
   displayChange(signinBtn,loginP,firstP);
+
+  const menuBox = document.querySelector("#menu-box");
+  const menuHome = menuBox.children[0];
+  const menuCinema = menuBox.children[1];
+  const menuMagazine = menuBox.children[2];
+
+  const homeP = document.querySelector("#home");
+  const cinemaP = document.querySelector("#cinema");
+  const magazineP = document.querySelector("#magazine");
+  displayChange(menuHome,firstP,homeP);
+  displayChange(menuCinema,firstP,cinemaP);
+  displayChange(menuMagazine,firstP,magazineP);
