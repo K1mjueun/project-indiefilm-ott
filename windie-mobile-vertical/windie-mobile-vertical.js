@@ -54,3 +54,7 @@ let displayAppear = [
   displayChange(locationBtn,cinemaP,locationP);
   displayChange(searchingBtn,cinemaP,searchingP);
   displayChange(releasedBtn,cinemaP,releasedP);
+
+  const seoulBtn = document.querySelector("#location-box > li:nth-child(2)");
+  const locationSeoulP = document.querySelector("#location-seoul");
+  displayChange(seoulBtn,locationP,locationSeoulP);
