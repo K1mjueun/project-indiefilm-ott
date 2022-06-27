@@ -17,3 +17,7 @@
   background-size: cover;
   background-image: url("/img/윈디-스티커-가로형.png");
 }
+
+#start-page > section:hover {
+  cursor: pointer;
+}
