@@ -1,0 +1,19 @@
+
+#start-page {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#start-page > section {
+  width: 220px;
+  height: 70px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/img/윈디-스티커-가로형.png");
+}
