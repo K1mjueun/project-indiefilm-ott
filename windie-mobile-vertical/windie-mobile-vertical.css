@@ -19,5 +19,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  overflow: hidden;
+  overflow: auto;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#phone-vertical::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
 }
