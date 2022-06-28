@@ -21,10 +21,10 @@
   flex-direction: column;
   overflow: auto;
 
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  /* -ms-overflow-style: none; IE and Edge
+  scrollbar-width: none; Firefox */
 }
 
-#phone-vertical::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera*/
-}
+/* #phone-vertical::-webkit-scrollbar {
+  display: none; Chrome, Safari, Opera */
+/* } */
