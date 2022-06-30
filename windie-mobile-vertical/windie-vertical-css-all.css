@@ -1,15 +1,21 @@
 @import url("/windie-mobile-vertical/color-set.css");
 @import url("/windie-mobile-vertical/windie-mobile-vertical.css");
+
 @import url("/windie-mobile-vertical/start-page.css");
 @import url("/windie-mobile-vertical/login-page.css");
 @import url("/windie-mobile-vertical/first-page.css");
+
 @import url("/windie-mobile-vertical/home.css");
 @import url("/windie-mobile-vertical/search-genre.css");
 @import url("/windie-mobile-vertical/search-nation.css");
 @import url("/windie-mobile-vertical/search-feature.css");
+
+@import url("/windie-mobile-vertical/mypage-1.css");
+
 @import url("/windie-mobile-vertical/cinema.css");
 @import url("/windie-mobile-vertical/magazine.css");
 @import url("/windie-mobile-vertical/location.css");
+
 @import url("/windie-mobile-vertical/movie-searching.css");
 @import url("/windie-mobile-vertical/released.css");
 @import url("/windie-mobile-vertical/location-seoul.css");

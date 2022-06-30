@@ -125,3 +125,7 @@ const feature = document.querySelector("#search-nation > .category > section:nth
 displayChange(nation,genreP,nationP);
 displayChange(feature,nationP,featureP);
 
+const mypage1P = document.getElementById("mypage-1");
+
+displayChange(userIcon,featureP,mypage1P);
+
