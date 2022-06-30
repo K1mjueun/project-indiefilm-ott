@@ -1,8 +1,7 @@
 
 #home {
   width: 100%;
-  height: 250%;
-  /* 스크롤 왜안되냐 */
+  height: 100%;
   background-color: var(--color-black);
 
   display: none;
@@ -140,7 +139,7 @@
 
 .movie-img {
   width: 100%;
-  height: 25%;
+  height: 28%;
   background-size: cover;
   background-position: center;
   background-image: url("/img/족구왕.jpg");
@@ -176,7 +175,7 @@
 
 .movie-img-2 {
   width: 100%;
-  height: 25%;
+  height: 28%;
   border-bottom: 2px solid var(--color-white);
   display: flex;
   flex-direction: row;
@@ -185,6 +184,7 @@
 .movie-img-2 > section {
   width: 50%;
   height: 100%;
+  display: flex;
 }
 
 .movie-img-2 > section:nth-child(1) {
@@ -201,4 +201,45 @@
   background-image: url("/img/작은빛.jpg");
 
   border-right: 2px solid var(--color-white);
+}
+
+.mouse-info {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+
+  display: none;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+
+  padding-left: 15px;
+}
+
+.mouse-info > h1 {
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.info-button:hover {
+  cursor: pointer;
+}
+
+.fixed-menu {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fixed-menu > li {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-white);
+  font-size: 15px;
 }

@@ -63,3 +63,43 @@ let displayAppear = [
   const gangnamP = document.querySelector("#location-seoul-gangnam");
   displayChange(gangnamBtn,locationSeoulP,gangnamP);
 
+
+
+  // 영화 정보 클릭
+  const infoBtn1 = document.querySelector(".movie-name > .info-button");
+  const mouseInfo1 = document.querySelector(".movie-img > .mouse-info");
+  const infoBtn2 = document.querySelector(".movie-name-2 > section:nth-child(1) > .info-button");
+  const mouseInfo2 = document.querySelector(".movie-img-2 > section:nth-child(1) > .mouse-info");
+  const infoBtn3 = document.querySelector(".movie-name-2 > section:nth-child(2) > .info-button");
+  const mouseInfo3 = document.querySelector(".movie-img-2 > section:nth-child(2) > .mouse-info");
+
+  // let tof = true;
+  // if(tof === true) {
+  //   infoBtn.addEventListener("click", function() {
+  //     mouseInfo.style.display = "flex";
+  //     tof = false;
+  //     console.log(tof);
+  //   });
+  // };
+  
+  // if(tof === false) {
+  //   infoBtn.addEventListener("click", function() {
+  //     mouseInfo.style.display = "none";
+  //     tof = true;
+  //     console.log(tof);
+  //   });
+  // };
+
+  function movieInfo(infoBtn, mouseInfo) {
+    infoBtn.addEventListener("mouseover", function() {
+      mouseInfo.style.display = "flex";
+    });
+    infoBtn.addEventListener("mouseleave", function() {
+      mouseInfo.style.display = "none";
+    });
+  };
+
+  movieInfo(infoBtn1,mouseInfo1);
+  movieInfo(infoBtn2,mouseInfo2);
+  movieInfo(infoBtn3,mouseInfo3);
+
