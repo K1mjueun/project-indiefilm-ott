@@ -1,5 +1,5 @@
 
-#search-page {
+#search-genre {
   width: 100%;
   height: 100%;
   background-color: var(--color-black);
@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 
-#search-page > header {
+#search-genre > header {
   width: 100%;
   height: 9%;
   border-bottom: 2px solid var(--color-white);
@@ -20,13 +20,13 @@
   flex-direction: row;
 }
 
-#search-page > header > h1 {
+#search-genre > header > h1 {
   font-size: 20px;
   color: var(--color-white);
   margin-left: 15px;
 }
 
-#search-page > nav {
+#search-genre > nav {
   width: 100%;
   height: 4%;
   display: flex;
@@ -80,7 +80,7 @@
   border-left: 2px solid var(--color-white);
 }
 
-.category-imgs {
+.category-genre {
   width: 100%;
   height: 75%;
   border-bottom: 2px solid var(--color-white);
@@ -89,7 +89,7 @@
   flex-direction: column;
 }
 
-.category-imgs > section {
+.category-genre > section {
   width: 100%;
   flex-grow: 1;
   display: flex;
@@ -97,11 +97,11 @@
   border-bottom: 2px solid var(--color-white);
 }
 
-.category-imgs > section:nth-child(4) {
+.category-genre > section:nth-child(4) {
   border-bottom: 0;
 }
 
-.category-imgs > section > li {
+.category-genre > section > li {
   width: 50%;
   height: 100%;
 
@@ -111,11 +111,11 @@
   flex-direction: column;
 }
 
-.category-imgs > section > li:nth-child(1) {
+.category-genre > section > li:nth-child(1) {
   border-right: 2px solid var(--color-white);
 }
 
-.category-imgs > section > li > div {
+.category-genre > section > li > div {
   width: 65px;
   height: 80px;
   border-radius: 100px;
@@ -124,7 +124,7 @@
   background-position: center;
 }
 
-.category-imgs > section > li > h1 {
+.category-genre > section > li > h1 {
   font-size: 17px;
   margin-top: 5px;
 }
@@ -154,6 +154,6 @@
   background-image: url("/img/카테고리 이미지/스릴러.jpg");
 }
 
-.category, .category-imgs:hover {
+.category, .category-genre:hover {
   cursor: pointer;
 }

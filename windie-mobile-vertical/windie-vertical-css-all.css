@@ -4,7 +4,9 @@
 @import url("/windie-mobile-vertical/login-page.css");
 @import url("/windie-mobile-vertical/first-page.css");
 @import url("/windie-mobile-vertical/home.css");
-@import url("/windie-mobile-vertical/search-page.css");
+@import url("/windie-mobile-vertical/search-genre.css");
+@import url("/windie-mobile-vertical/search-nation.css");
+@import url("/windie-mobile-vertical/search-feature.css");
 @import url("/windie-mobile-vertical/cinema.css");
 @import url("/windie-mobile-vertical/magazine.css");
 @import url("/windie-mobile-vertical/location.css");

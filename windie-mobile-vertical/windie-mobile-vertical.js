@@ -105,7 +105,7 @@ let displayAppear = [
 
 
 
-const searchP = document.getElementById("search-page");
+const genreP = document.getElementById("search-genre");
 //fixed-menu
 const fixedMenu = document.querySelector(".fixed-menu");
 const homeIcon = fixedMenu.children[0];
@@ -113,5 +113,15 @@ const searchIcon = fixedMenu.children[1];
 const starIcon = fixedMenu.children[2];
 const userIcon = fixedMenu.children[3];
 
-displayChange(searchIcon,homeP,searchP);
+displayChange(searchIcon,homeP,genreP);
+
+const nationP = document.getElementById("search-nation");
+const featureP = document.getElementById("search-feature");
+//장르 국가 특징
+
+const nation = document.querySelector(".category > section:nth-child(2)");
+const feature = document.querySelector("#search-nation > .category > section:nth-child(3)");
+
+displayChange(nation,genreP,nationP);
+displayChange(feature,nationP,featureP);
 
