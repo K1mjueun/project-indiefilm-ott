@@ -45,14 +45,14 @@ let displayAppear = [
 
   const CmenuBox = document.querySelector("#c-menu-box");
   const locationBtn = CmenuBox.children[0];
-  const searchingBtn = CmenuBox.children[1];
+  const MsearchingBtn = CmenuBox.children[1];
   const releasedBtn = CmenuBox.children[2];
 
   const locationP = document.querySelector("#location"); 
-  const searchingP = document.querySelector("#searching"); 
+  const MsearchingP = document.querySelector("#movie-searching"); 
   const releasedP = document.querySelector("#released"); 
   displayChange(locationBtn,cinemaP,locationP);
-  displayChange(searchingBtn,cinemaP,searchingP);
+  displayChange(MsearchingBtn,cinemaP,MsearchingP);
   displayChange(releasedBtn,cinemaP,releasedP);
 
   const seoulBtn = document.querySelector("#location-box > li:nth-child(2)");
@@ -102,4 +102,16 @@ let displayAppear = [
   movieInfo(infoBtn1,mouseInfo1);
   movieInfo(infoBtn2,mouseInfo2);
   movieInfo(infoBtn3,mouseInfo3);
+
+
+
+const searchP = document.getElementById("search-page");
+//fixed-menu
+const fixedMenu = document.querySelector(".fixed-menu");
+const homeIcon = fixedMenu.children[0];
+const searchIcon = fixedMenu.children[1];
+const starIcon = fixedMenu.children[2];
+const userIcon = fixedMenu.children[3];
+
+displayChange(searchIcon,homeP,searchP);
 
