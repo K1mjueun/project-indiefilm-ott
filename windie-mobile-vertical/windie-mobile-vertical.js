@@ -21,7 +21,7 @@ let displayAppear = [
     });
   };
   //
-
+  
   const startP = document.querySelector("#start-page");
   const startPlogo = startP.children;
   const loginP = document.querySelector("#login-page");
@@ -39,9 +39,16 @@ let displayAppear = [
   const homeP = document.querySelector("#home");
   const cinemaP = document.querySelector("#cinema");
   const magazineP = document.querySelector("#magazine");
+
   displayChange(menuHome,firstP,homeP);
   displayChange(menuCinema,firstP,cinemaP);
   displayChange(menuMagazine,firstP,magazineP);
+
+    //고정 메뉴
+    const fixMenu = document.getElementById("fixed-menu");
+    if(homeP.style.display === "flex") {
+      fixMenu.style.display = "flex";
+    }
 
   const CmenuBox = document.querySelector("#c-menu-box");
   const locationBtn = CmenuBox.children[0];
@@ -127,5 +134,5 @@ displayChange(feature,nationP,featureP);
 
 const mypage1P = document.getElementById("mypage-1");
 
-displayChange(userIcon,featureP,mypage1P);
+displayChange(userIcon,homeP,mypage1P);
 
