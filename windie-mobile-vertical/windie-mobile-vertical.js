@@ -49,11 +49,13 @@ let displayAppear = [
     if(homeP.style.display === "flex") {
       fixedMenu.style.display = "flex";
     }
+    // 왜 안돼?
 
-const homeIcon = fixedMenu.children[0];
-const searchIcon = fixedMenu.children[1];
-const starIcon = fixedMenu.children[2];
-const userIcon = fixedMenu.children[3];
+    const homeIcon = fixedMenu.children[0];
+    const searchIcon = fixedMenu.children[1];
+    const starIcon = fixedMenu.children[2];
+    const userIcon = fixedMenu.children[3];
+    // 고정 메뉴 아이콘
 
 
   const CmenuBox = document.querySelector("#c-menu-box");
