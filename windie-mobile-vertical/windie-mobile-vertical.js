@@ -45,10 +45,16 @@ let displayAppear = [
   displayChange(menuMagazine,firstP,magazineP);
 
     //고정 메뉴
-    const fixMenu = document.getElementById("fixed-menu");
+    const fixedMenu = document.getElementById("fixed-menu");
     if(homeP.style.display === "flex") {
-      fixMenu.style.display = "flex";
+      fixedMenu.style.display = "flex";
     }
+
+const homeIcon = fixedMenu.children[0];
+const searchIcon = fixedMenu.children[1];
+const starIcon = fixedMenu.children[2];
+const userIcon = fixedMenu.children[3];
+
 
   const CmenuBox = document.querySelector("#c-menu-box");
   const locationBtn = CmenuBox.children[0];
@@ -113,13 +119,6 @@ let displayAppear = [
 
 
 const genreP = document.getElementById("search-genre");
-//fixed-menu
-const fixedMenu = document.querySelector(".fixed-menu");
-const homeIcon = fixedMenu.children[0];
-const searchIcon = fixedMenu.children[1];
-const starIcon = fixedMenu.children[2];
-const userIcon = fixedMenu.children[3];
-
 displayChange(searchIcon,homeP,genreP);
 
 const nationP = document.getElementById("search-nation");
