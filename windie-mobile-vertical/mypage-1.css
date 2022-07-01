@@ -115,7 +115,7 @@
   align-items: center;
   justify-content: center;
   color: var(--color-white);
-  font-size: 15px;
+  font-size: 13px;
 
   border-right: 2px solid var(--color-white);
 }
@@ -124,6 +124,23 @@
   border: 0;
 }
 
-.my-movies {
-  
+#mypage-1 > .movie-img-2 > section:nth-child(1) {
+  background-image: url("/img/버닝.jpg");
+}
+#mypage-1 > .movie-img-2 > section:nth-child(2) {
+  background-image: url("/img/열대야.jpg");
+}
+
+#mypage-1 > .movie-img-3 > section:nth-child(1) {
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/역할들.jpg");
+
+  border-right: 2px solid var(--color-white);
+}
+
+#mypage-1 > .movie-img-3 > section:nth-child(2) {
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/우리들.jpg");
 }
