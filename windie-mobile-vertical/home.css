@@ -237,25 +237,3 @@
 .info-button:hover {
   cursor: pointer;
 }
-
-.fixed-menu {
-  width: 100%;
-  height: 7%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.fixed-menu > li {
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: var(--color-white);
-  font-size: 15px;
-}
-
-.fixed-menu > li:hover{
-  cursor: pointer;
-}

@@ -46,9 +46,14 @@ let displayAppear = [
 
     //고정 메뉴
     const fixedMenu = document.getElementById("fixed-menu");
-    if(homeP.style.display === "flex") {
-      fixedMenu.style.display = "flex";
-    };
+
+    menuHome.addEventListener("click", function() {
+      fixedMenu.style.display = "flex"
+    });
+
+    // if(homeP.style.display === "flex") {
+    //   fixedMenu.style.display = "flex";
+    // };
     // 왜 안돼?
 
     const homeIcon = fixedMenu.children[0];
@@ -136,7 +141,9 @@ displayChange(feature,nationP,featureP);
 const mypage1P = document.getElementById("mypage-1");
 displayChange(userIcon,homeP,mypage1P);
 
-const mypArrow = document.querySelector(".my-1 > aside");
+const arrowDown = document.querySelector(".my-1 > aside");
+const arrowUp = document.querySelector(".my-2 > aside");
 const mypage2P = document.getElementById("mypage-2");
-displayChange(mypArrow, mypage1P, mypage2P);
+displayChange(arrowDown, mypage1P, mypage2P);
+displayChange(arrowUp, mypage2P, mypage1P);
 
