@@ -134,6 +134,9 @@ displayChange(nation,genreP,nationP);
 displayChange(feature,nationP,featureP);
 
 const mypage1P = document.getElementById("mypage-1");
-
 displayChange(userIcon,homeP,mypage1P);
+
+const mypArrow = document.querySelector(".my-1 > aside");
+const mypage2P = document.getElementById("mypage-2");
+displayChange(mypArrow, mypage1P, mypage2P);
 
