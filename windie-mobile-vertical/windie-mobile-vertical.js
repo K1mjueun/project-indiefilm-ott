@@ -48,7 +48,7 @@ let displayAppear = [
     const fixedMenu = document.getElementById("fixed-menu");
     if(homeP.style.display === "flex") {
       fixedMenu.style.display = "flex";
-    }
+    };
     // 왜 안돼?
 
     const homeIcon = fixedMenu.children[0];

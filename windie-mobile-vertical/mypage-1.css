@@ -30,6 +30,7 @@
 #mypage-1 > header > section:nth-child(1) > h1 {
   color: var(--color-white);
   margin-left: 15px;
+  font-size: 20px;
 }
 
 #mypage-1 > header > section:nth-child(2) {
@@ -42,4 +43,60 @@
 
   color: var(--color-white);
   font-size: 20px;
+}
+
+.my-1 {
+  width: 100%;
+  height: 25%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-bottom: 2px solid var(--color-white);
+  position: relative;
+}
+
+.my-1 > .name {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  
+  margin-top: 15px;
+}
+
+.my-1 > .name > h1 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.my-1 > .profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/profile-img.png");
+}
+
+.my-1 > aside {
+  width: 100%;
+  height: fit-content;
+  color:var(--color-white);
+  font-size: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+
+  position: absolute;
+  bottom:10px;
 }
